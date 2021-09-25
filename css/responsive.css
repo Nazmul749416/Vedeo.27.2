@@ -1,0 +1,130 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1600px) {
+        /* CSS */
+        .mid-content {
+            max-width: 100%;
+            margin: auto;
+            padding: 0 40px;
+            box-sizing: border-box;
+        }
+    }
+    
+    
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1500px
+  */
+
+    @media (max-width: 1280px) {
+
+        /* CSS */
+        .header-button {
+            width: 14%;
+        }
+        .video-text {
+            width: 40%;
+        }
+        .video-text p {
+            font-size: 20px;
+        }
+        .video-text h2 {
+            font-size: 35px;
+
+        }
+        .s-content h3 {
+            font-size: 22px;
+        }
+        .p-content ul li span {
+            font-size: 20px;
+        }
+        .p-content ul li {
+            font-size: 20px;
+        }
+        .t-content p {
+            font-size: 20px;
+        
+        }
+        .contact-right-form {
+            width: 40%;
+        }
+        .contact-right-form {
+            width: 100%;
+        }
+        .contact-left-map {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .footer-contact-form .w100 {
+            width: 100%;
+            margin-left: 0px;
+        }
+        .footer-contact-form .w50 {
+            width: 282px;
+            margin-right: 0;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .footer-contact-form .w50 {
+            width: 282px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .footer-contact-form .button-box {
+            margin-left: 0;
+        }
+
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w  1024px
+  */
+
+    @media  (max-width: 1024px) {
+
+        /* CSS */
+        
+    }
+    /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px 
+  */
+
+    @media (max-width: 768px)  {
+
+        /* CSS */
+        .header-menu {
+            width: 100%;
+        }
+        .header-logo {
+            height: 30px;
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px 
+  */
+
+    @media (max-width: 530px) {
+
+        /* CSS */
+        
+    }
+
+    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px 
+  */
+
+    @media (max-width: 375px){
+        /* CSS */
+        
+    }
+}
